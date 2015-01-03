@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>				<string>PSGroupCell</string>
+			<key>label</key>			<string>Number Of Taps To Activate Reachability - (Requires Respring)</string>
+			<key>footerText</key> 		<string>No respring required for tweaks below:</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>				<string>PSSegmentCell</string>
+			<key>defaults</key> 		<string>com.ruslan.reachabilitytoggleprefs</string>
+			<key>key</key>				<string>numTapsToActivate</string>
+			<key>validValues</key>		<array> 
+											<string>1</string>
+											<string>2</string>
+											<string>3</string>
+											<string>4</string>
+										</array>
+			<key>validTitles</key>		<array> 
+											<string> 1 </string>
+											<string> 2 </string>
+											<string> 3 </string>
+											<string> 4 </string>
+										</array>
+			<key>PostNotification</key>	<string>com.ruslan.reachabilitytoggleprefs/preferences.changed</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>				<string>PSButtonCell</string>
+			<key>action</key>			<string>respring</string>
+			<key>label</key>			<string>Click here to respring.</string>
+			<key>confirmation</key>		<dict>
+											<key>prompt</key>		<string>Confirm Respring</string>
+											<key>title</key>		<string>Yeah, respring.</string>
+											<key>cancelTitle</key>	<string>Nope, changed my mind.</string>
+										</dict>
+   		</dict>
+
+		<dict>
+			<key>cell</key>				<string>PSGroupCell</string>
+			<key>label</key>			<string>Disable Reachability Animation</string>
+		</dict>
+
+
+		<dict>
+			<key>cell</key>				<string>PSSwitchCell</string>
+			<key>default</key>			<false/>
+			<key>defaults</key> 		<string>com.ruslan.reachabilitytoggleprefs</string>
+			<key>key</key>				<string>noAnimation</string>
+			<key>label</key>			<string>No Animation</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>				<string>PSGroupCell</string>
+			<key>label</key>			<string>Allowable Time Between Taps (seconds)</string>
+		</dict>
+
+		<dict>
+		    <key>cell</key> 			<string>PSSliderCell</string>
+		    <key>defaults</key> 		<string>com.ruslan.reachabilitytoggleprefs</string>
+		    <key>key</key> 				<string>intervalValue</string>
+		    <key>min</key> 				<string>0.1</string>
+		    <key>max</key> 				<string>4.0</string>
+		    <key>showValue</key> 		<string>true</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>				<string>PSGroupCell</string>
+			<key>label</key>			<string>Keep Alive Duration (seconds)</string>
+		</dict>
+
+		<dict>
+		    <key>cell</key> 			<string>PSSliderCell</string>
+		    <key>defaults</key> 		<string>com.ruslan.reachabilitytoggleprefs</string>
+		    <key>key</key> 				<string>keepAlive</string>
+		    <key>min</key> 				<string>1</string>
+		    <key>max</key> 				<string>16</string>
+		    <key>showValue</key> 		<string>true</string>
+		</dict>
+
+		<dict>
+			<key>cell</key> 		<string>PSGroupCell</string>
+			<key>label</key> 		<string> </string>
+			<key>footerText</key> 	<string>www.ruslanArdashev.com</string>
+		</dict>
+
+		<dict>
+			<key>action</key> 			<string>sendEmail</string>
+			<key>cell</key> 			<string>PSButtonCell</string>
+			<key>label</key> 			<string>Issue? Let me know!</string>
+			<key>icon</key> 			<string>mail.png</string>
+		</dict>
+
+		<dict>
+			<key>action</key> 			<string>openInstructions</string>
+			<key>cell</key> 			<string>PSButtonCell</string>
+			<key>label</key> 			<string>How to use reachabilityToggles</string>
+			<key>icon</key>  			<string>youtube.png</string>
+		</dict>
+
+		<dict>
+			<key>action</key> 			<string>openYoutubeChannel</string>
+			<key>cell</key> 			<string>PSButtonCell</string>
+			<key>label</key> 			<string>Personal Youtube Channel</string>
+			<key>icon</key>  			<string>youtube.png</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>reachabilityTogglesPrefs</string>
+</dict>
+</plist>

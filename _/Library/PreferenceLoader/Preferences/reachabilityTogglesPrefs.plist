@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = reachabilityTogglesPrefs;
+	cell = PSLinkCell;
+	detail = reachabilityTogglesPrefsListController;
+	icon = reachabilityTogglesPrefs.png;
+	isController = 1;
+	label = reachabilityTogglesPrefs;
+    };
+}
