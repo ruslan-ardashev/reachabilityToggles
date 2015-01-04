@@ -3,8 +3,8 @@
 	bundle = reachabilityTogglesPrefs;
 	cell = PSLinkCell;
 	detail = reachabilityTogglesPrefsListController;
-	icon = reachabilityTogglesPrefs.png;
+	icon = icon.png;
 	isController = 1;
-	label = reachabilityTogglesPrefs;
+	label = "reachability Toggles";
     };
 }

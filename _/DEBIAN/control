@@ -2,9 +2,9 @@ Package: com.ruslan.reachabilityToggles
 Name: reachabilityToggles
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: Customize your Reachability's duration, # taps, and more!
 Maintainer: Ruslan Ardashev
 Author: Ruslan Ardashev
 Section: Tweaks
-Version: 0.0.1-28
-Installed-Size: 408
+Version: 1.0-1
+Installed-Size: 440
