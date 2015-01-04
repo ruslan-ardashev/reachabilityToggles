@@ -10,12 +10,12 @@
 
 
 #### Potential Feature Additions ####
-* Add option to lock all apps
+
 
 
 |  |  |
 | ------------- | ------------- |
-| ![](https://github.com/ruslan120101/panicLockiOS8/blob/master/Screenshots/appsImage.JPG)  | ![](https://github.com/ruslan120101/panicLockiOS8/blob/master/Screenshots/appsInList.JPG)  |
+| ![](https://github.com/ruslan120101/reachabilityToggles/blob/master/Screenshots/IMG_0061.jpg)  | ![](https://github.com/ruslan120101/reachabilityToggles/blob/master/Screenshots/IMG_0060.jpg)  |
 
 
 
