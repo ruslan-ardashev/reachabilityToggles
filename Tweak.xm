@@ -1,6 +1,6 @@
 /////////////////////////////////////////////////////////////
 //
-// reachabilityToggles by Ruslan Ardashev
+// reachabilityUnlocked by Ruslan Ardashev
 // Duke University, '15
 // Copyright 2015
 //

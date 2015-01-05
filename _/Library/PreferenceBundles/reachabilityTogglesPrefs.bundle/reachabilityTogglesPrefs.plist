@@ -8,7 +8,7 @@
 		<dict>
 			<key>action</key> 			<string>openInstructions</string>
 			<key>cell</key> 			<string>PSButtonCell</string>
-			<key>label</key> 			<string>How to use reachabilityToggles</string>
+			<key>label</key> 			<string>How to use reachabilityUnlocked</string>
 			<key>icon</key>  			<string>youtube.png</string>
 		</dict>
 

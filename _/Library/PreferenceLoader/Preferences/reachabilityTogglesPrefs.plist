@@ -5,6 +5,6 @@
 	detail = reachabilityTogglesPrefsListController;
 	icon = icon.png;
 	isController = 1;
-	label = "reachability Toggles";
+	label = "reachabilityUnlocked";
     };
 }
